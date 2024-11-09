@@ -18,7 +18,7 @@
         font-normal cursor-pointer md:text-lg mx-4 text-xs text-black md:ml-5 md:mx-8
     };
     .srt-btn{
-        @apply rounded-full transition-all duration-200   md:text-lg text-xs font-normal mr-3 mt-5 py-2 px-3 md:px-7 border-2  border-[#F9CCC7] hover:text-white cursor-pointer hover:bg-[#f33445]/50 active:bg-transparent active:border-transparent hover:scale-105
+        @apply rounded-full dark:bg-gray-700 hover:dark:bg-red-500 transition-all duration-200   md:text-lg text-xs font-normal mr-3 mt-5 py-2 px-3 md:px-7 border-2  border-[#F9CCC7] hover:text-white cursor-pointer hover:bg-[#f33445]/50 active:bg-transparent active:border-transparent hover:scale-105
     };
     .there-spn{
         @apply md:text-lg text-xs text-[#2D3142] px-2 mr-1 cursor-pointer hover:bg-[#00FF84] transition-all duration-200 active:bg-green-400 rounded-full   md:px-10 py-1 border-[1px] border-[#2D3142]
@@ -31,7 +31,7 @@
     };
 
     .h-e3{
-       @apply cursor-pointer hover:bg-[#f33445]/25 hover:rounded-full
+       @apply cursor-pointer hover:dark:bg-red-500  hover:bg-[#f33445]/25 hover:rounded-full
     };
     .f-t{
         @apply font-normal text-base text-[#20484F]
