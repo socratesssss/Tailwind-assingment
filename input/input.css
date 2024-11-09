@@ -34,7 +34,7 @@
        @apply cursor-pointer hover:dark:bg-red-500  hover:bg-[#f33445]/25 hover:rounded-full
     };
     .f-t{
-        @apply font-normal text-base text-[#20484F]
+        @apply font-normal text-base dark:text-gray-400 text-[#20484F]
 
     };
      .t-white{
