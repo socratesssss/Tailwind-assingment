@@ -853,6 +853,19 @@ video {
   background-color: rgb(0 255 132 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#fafafa\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -893,6 +906,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -911,6 +929,10 @@ video {
 
 .pt-52 {
   padding-top: 13rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-center {
@@ -945,6 +967,15 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -991,6 +1022,11 @@ video {
 .text-\[\#2D3142\] {
   --tw-text-opacity: 1;
   color: rgb(45 49 66 / var(--tw-text-opacity));
+}
+
+.text-\[\#F9CCC7\] {
+  --tw-text-opacity: 1;
+  color: rgb(249 204 199 / var(--tw-text-opacity));
 }
 
 .shadow-black {
@@ -1216,6 +1252,10 @@ video {
     margin-top: -10rem;
   }
 
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1237,6 +1277,10 @@ video {
     height: 3rem;
   }
 
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
   .md\:scale-100 {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
@@ -1249,6 +1293,10 @@ video {
 
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-2xl {
@@ -1269,6 +1317,10 @@ video {
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  .md\:text-\[26px\] {
+    font-size: 26px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1283,6 +1335,11 @@ video {
 
   .dark\:brightness-50 {
     --tw-brightness: brightness(.5);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .dark\:brightness-150 {
+    --tw-brightness: brightness(1.5);
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   }
 
