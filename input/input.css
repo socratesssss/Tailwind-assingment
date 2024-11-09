@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    .button{
+        @apply font-normal rounded-md  md:h-12 text-base md:text-lg 
+    };
+    .hero-span{ 
+        @apply flex flex-col font-normal md:text-lg cursor-pointer text-sm
+    };
+    .p-nor{
+        @apply 
+        font-normal text-lg mt-12
+    };
+    .p-nor2{
+        @apply 
+        font-normal cursor-pointer md:text-lg mx-4 text-xs text-black md:ml-5 md:mx-8
+    };
+    .srt-btn{
+        @apply rounded-full transition-all duration-200   md:text-lg text-xs font-normal mr-3 mt-5 py-2 px-3 md:px-7 border-2  border-[#F9CCC7] hover:text-white cursor-pointer hover:bg-[#f33445]/50 active:bg-transparent active:border-transparent hover:scale-105
+    };
+    .there-spn{
+        @apply md:text-lg text-xs text-[#2D3142] px-2 mr-1 cursor-pointer hover:bg-[#00FF84] transition-all duration-200 active:bg-green-400 rounded-full   md:px-10 py-1 border-[1px] border-[#2D3142]
+    };
+    .h-e{
+        @apply transition-all duration-300 hover:scale-110 cursor-pointer
+    };
+    .h-e2{
+        @apply transition-all duration-300 hover:scale-125 cursor-pointer
+    };
+
+    .h-e3{
+       @apply cursor-pointer hover:bg-[#f33445]/25 hover:rounded-full
+    };
+    .f-t{
+        @apply font-normal text-base text-[#20484F]
+
+    };
+     .t-white{
+        @apply text-white
+     }
+     .bg-dark{
+        @apply bg-gray-800
+     }
+   
+    
+}
