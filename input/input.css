@@ -21,7 +21,7 @@
         @apply rounded-full dark:bg-gray-700 hover:dark:bg-red-500 transition-all duration-200   md:text-lg text-xs font-normal mr-3 mt-5 py-2 px-3 md:px-7 border-2  border-[#F9CCC7] hover:text-white cursor-pointer hover:bg-[#f33445]/50 active:bg-transparent active:border-transparent hover:scale-105
     };
     .there-spn{
-        @apply md:text-lg text-xs text-[#2D3142] px-2 mr-1 cursor-pointer hover:bg-[#00FF84] transition-all duration-200 active:bg-green-400 rounded-full   md:px-10 py-1 border-[1px] border-[#2D3142]
+        @apply md:text-lg dark:text-white dark:border-white text-xs text-[#2D3142] px-2 mr-1 cursor-pointer hover:dark:bg-[#033f22] hover:bg-[#00FF84] transition-all duration-200 active:bg-green-400 rounded-full   md:px-10 py-1 border-[1px] border-[#2D3142]
     };
     .h-e{
         @apply transition-all duration-300 hover:scale-110 cursor-pointer
