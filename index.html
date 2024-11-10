@@ -46,7 +46,7 @@
           class="h-e items-center flex py-6 font-normal rounded-md h-9 md:h-12  px-2 text-white text-base md:text-lg bg-[#f44335]">
           Register Interest
         </button>
-        <button id="switch">
+        <button id="theme-toggle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -472,11 +472,10 @@
 
 
     <script>
-      const htmlTag = document.getElementById("htmlTag");
-      document.getElementById("switch").addEventListener("click", function () {
-        htmlTag.classlist.toggle("dark");
+      const toggleButton = document.getElementById('theme-toggle');
+      toggleButton.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
       });
     </script>
-    
   </body>
 </html>
